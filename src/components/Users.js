@@ -8,8 +8,8 @@ class Users extends Component {
       <div>
         <ul>
           Users!
-          {state.users}
-          {state.usercount}
+          {this.props.dispatch}
+
         </ul>
       </div>
     )
