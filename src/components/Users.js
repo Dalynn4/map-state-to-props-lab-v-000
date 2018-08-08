@@ -18,7 +18,7 @@ class Users extends Component {
 const mapStateToProps = (state) => {
   return {
     users: state.users,
-    usercount: state.usercount
+    usercount: state.count
   }
 }
 
